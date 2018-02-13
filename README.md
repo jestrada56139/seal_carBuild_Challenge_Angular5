@@ -26,3 +26,10 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+#My Process
+1. I realized its pretty much the same concept as the other car build challenge so I can use the same steps.
+2. Instead of using getElementById, I thought about ngModels.
+3. Then I thought about how to display the data, using ngFor
+4. I began using the same code as last time and just changing it to push to an array. 
+5. Tested it out and it works.
