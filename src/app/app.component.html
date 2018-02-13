@@ -1,0 +1,14 @@
+    <h1>Angular Car Builder</h1>
+   
+    What color?<input type="text" [(ngModel)] = "color" name = "color"  required><br/>
+
+    What model?<input type="text" [(ngModel)] = "model" name = "model"  required><br/>
+
+    How many doors?<input type="text" [(ngModel)] = "doors" name = "doors"  required><br/>
+
+    How fast can it go?(mpg)<input type="text" [(ngModel)] = "mpg" name = "mpg"  required><br/>
+    <button (click)="buildCar()">Build your car.</button>
+
+    <div *ngFor = "let car of newCar">
+        <p>Your car is a {{car.color}} {{car.model}}, with {{car.doors}} doors that runs {{car.mpg}} mpg.</p>
+     
